@@ -17,3 +17,8 @@ Protobuf usage: change to folder .\itbelongs-api\api-messages and execute
 
     protoc --proto_path=. --python_out=./../api-python --cpp_out=./../api-cpp --objc_out=./../api-objc *
 
+To access protobuf from python, install protobuf support 
+
+    pip install protobuf
+
+Make sure to use the same version in python as installed for protobuf (5.28.2)
