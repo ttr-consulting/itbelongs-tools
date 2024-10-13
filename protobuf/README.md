@@ -13,5 +13,7 @@ Verify installation: Open the command prompt and run:
 
     protoc --version
 
+Protobuf usage: change to folder .\itbelongs-api\api-messages and execute
 
+    protoc --proto_path=. --python_out=./../api-python --cpp_out=./../api-cpp --objc_out=./../api-objc *
 
